@@ -39,6 +39,7 @@ subprojects {
     }
 
     dependencies {
+		modImplementation "de.maxhenkel.voicechat:voicechat-api:2.6.0"
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
 
         mappings loom.layered {
